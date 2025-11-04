@@ -1,4 +1,4 @@
-/*using UnityEngine;
+using UnityEngine;
 
 public class PlayerCollisionHandler : MonoBehaviour
 {
@@ -9,7 +9,7 @@ public class PlayerCollisionHandler : MonoBehaviour
         gm = FindObjectOfType<GameManagerJuego1>();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Roca"))
         {
@@ -23,4 +23,4 @@ public class PlayerCollisionHandler : MonoBehaviour
         }
     }
 }
-*/
+
