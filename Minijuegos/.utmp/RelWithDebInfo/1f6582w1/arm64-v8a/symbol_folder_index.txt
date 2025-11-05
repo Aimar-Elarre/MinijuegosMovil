@@ -1,0 +1,1 @@
+C:\Markel\Programacion para moviles\MinijuegosMovil\Minijuegos\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\1f6582w1\obj\arm64-v8a

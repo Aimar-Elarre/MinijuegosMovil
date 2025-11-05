@@ -1,0 +1,2 @@
+C:\Markel\Programacion para moviles\MinijuegosMovil\Minijuegos\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Markel\Programacion para moviles\MinijuegosMovil\Minijuegos\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
