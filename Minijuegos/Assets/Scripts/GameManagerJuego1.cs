@@ -8,11 +8,12 @@ public class GameManagerJuego1 : MonoBehaviour
     [Header("Referencias")]
     [SerializeField] private PlayerController player;
     [SerializeField] private Slider gasolinaBar;
-    [SerializeField] private TMP_Text scoreText;
+    [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private GameObject gameOverPanel;
-    [SerializeField] private TMP_Text gameOverText;
+    [SerializeField] private TextMeshProUGUI gameOverText;
     [SerializeField] private Button volverMenuBtn;
-    [SerializeField] private TMP_Text vidasText;
+    [SerializeField] private TextMeshProUGUI vidasText;
+    [SerializeField] private Spawner spawn;
 
     [Header("Gasolina")]
     [SerializeField] private float gasolinaMax = 100f;
@@ -106,9 +107,9 @@ public class GameManagerJuego1 : MonoBehaviour
             player.enabled = false;
 
         
-        var spawner = FindObjectOfType<Spawner>();
-        if (spawner != null)
-            spawner.enabled = false;
+        
+        if (spawn != null)
+            spawn.enabled = false;
 
         
         gameOverPanel.SetActive(true);
