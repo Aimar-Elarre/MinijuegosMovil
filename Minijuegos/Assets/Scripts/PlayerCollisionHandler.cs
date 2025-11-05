@@ -11,6 +11,7 @@ public class PlayerCollisionHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.tag);
         if (other.CompareTag("Roca"))
         {
             gm.GolpeContraRoca();
