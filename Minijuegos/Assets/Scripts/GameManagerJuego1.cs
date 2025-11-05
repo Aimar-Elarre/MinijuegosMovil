@@ -12,11 +12,15 @@ public class GameManagerJuego1 : MonoBehaviour
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private TMP_Text gameOverText;
     [SerializeField] private Button volverMenuBtn;
+    [SerializeField] private TMP_Text vidasText;
 
     [Header("Gasolina")]
     [SerializeField] private float gasolinaMax = 100f;
     [SerializeField] private float consumoPorSegundo = 5f;
     [SerializeField] private float recargaBidon = 30f;
+
+    [Header("Vidas")]
+    [SerializeField] private int vidas = 3;
 
     [Header("Puntuación")]
     [SerializeField] private float puntosPorSegundo = 10f;
@@ -64,7 +68,10 @@ public class GameManagerJuego1 : MonoBehaviour
         if (scoreText != null)
             scoreText.text = "Distancia: " + Mathf.FloorToInt(score);
 
-        
+        if (vidasText != null)
+            vidasText.text = "Vidas: " + Mathf.FloorToInt(vidas);
+
+
         if (gasolinaActual <= 0f)
             Perder("Te has quedado sin gasolina");
     }
@@ -73,7 +80,14 @@ public class GameManagerJuego1 : MonoBehaviour
     public void GolpeContraRoca()
     {
         if (gameOver) return;
-        Perder("Has chocado con una roca");
+        if (vidas == 1)
+        {
+            Perder("Has chocado con una roca");
+        }
+        else
+        {
+            vidas -= 1;
+        }
     }
 
     
