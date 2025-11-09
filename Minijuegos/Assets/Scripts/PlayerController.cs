@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private AudioManager audioManager;
+
     [Header("Movimiento")]
     [SerializeField] private float speed = 5f;  //velocidad lateral
     [SerializeField] private float limiteX = 3f; //límite horizontal para no salirte
