@@ -3,6 +3,7 @@ using UnityEngine.Events;
 
 public class PlayerCollisionHandler : MonoBehaviour
 {
+    [SerializeField] private AudioManager audioManager;
     [SerializeField] private GameManagerJuego1 gm;
     [Header("Colision roca")]
     [SerializeField] public UnityEvent collisionrock;
@@ -11,7 +12,8 @@ public class PlayerCollisionHandler : MonoBehaviour
 
     private void Start()
     {
-       
+        collisiongsolinsa.AddListener(audioManager.PlayPickup);
+        collisionrock.AddListener(audioManager.PlayHit);
     }
 
     private void OnTriggerEnter(Collider other)

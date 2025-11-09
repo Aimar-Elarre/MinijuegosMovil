@@ -32,6 +32,10 @@ public class SceneController : MonoBehaviour
 
         SceneManager.LoadScene(scen);
     }
+    public void CerrarEscena(int scen)
+    {
+        SceneManager.UnloadSceneAsync(scen);
+    }
 }
 
 
