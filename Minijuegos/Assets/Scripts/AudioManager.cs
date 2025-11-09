@@ -22,17 +22,7 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance != null && Instance != this) { Destroy(gameObject); return; }
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
-
-        if (!musicSource) musicSource = gameObject.AddComponent<AudioSource>();
-        if (!sfxSource) sfxSource = gameObject.AddComponent<AudioSource>();
-
-        musicSource.loop = true;
-        musicSource.spatialBlend = 0f; 
-        sfxSource.spatialBlend = 0f; 
-        ApplyVolumes();
+       
     }
 
     private void OnValidate() => ApplyVolumes();
