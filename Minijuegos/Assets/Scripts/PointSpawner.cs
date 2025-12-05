@@ -7,8 +7,7 @@ public class PointSpawner : MonoBehaviour
     public int pointsToSpawn = 3;
     public float radius = 150f;
     public float minDistanceBetweenPoints = 50f;
-
-    private void Start()
+    public void SpawnWithButton()
     {
         SpawnPoints();
     }

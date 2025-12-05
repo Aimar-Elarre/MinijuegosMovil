@@ -25,11 +25,6 @@ public class GPSGameManager : MonoBehaviour
         else Destroy(gameObject);
     }
 
-    private void Start()
-    {
-        StartGame();
-    }
-
     public void StartGame()
     {
         collectedPoints = 0;
