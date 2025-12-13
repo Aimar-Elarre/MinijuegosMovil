@@ -27,3 +27,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: imagen_moneda
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4850205198355022136
+      m_GuidHigh: 15940374137793611414
+    m_SerializedTextureGuid:
+      m_GuidLow: 18344405063663830270
+      m_GuidHigh: 4699015591684292923
+    m_Size: {x: 12, y: 12}
+    m_SpecifySize: 1
+    m_Name: imagen_monstruo
+    m_Texture: {fileID: 0}
