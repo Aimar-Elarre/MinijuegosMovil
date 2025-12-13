@@ -5,7 +5,7 @@ public class FruitData
 {
     public string nombre;
     public GameObject prefab;
-    public bool esFruta; // true = fruta, false = verdura
+    public bool esFruta; 
 }
 
 public class FruitSpawner : MonoBehaviour

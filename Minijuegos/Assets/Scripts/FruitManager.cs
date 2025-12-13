@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class FruitManager : MonoBehaviour
 {
-    public GameObject[] frutas;        // modelos disponibles
+    public GameObject[] frutas;        
     public Transform spawnPoint;
     public Basket basket;
     public int puntuacion = 0;

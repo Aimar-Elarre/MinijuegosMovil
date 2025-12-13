@@ -763,6 +763,52 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1 &495266090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 495266091}
+  - component: {fileID: 495266092}
+  m_Layer: 0
+  m_Name: MarkerTracker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &495266091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495266090}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 536.7228, y: 927.0052, z: 312.00076}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &495266092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495266090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fbd481807c0a1e4089b993753dd4b60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedImageManager: {fileID: 182095512}
+  gameManager: {fileID: 1389252951}
 --- !u!1 &540477808
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,7 +891,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a777a00464fcfa04cba01410c9aca697, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a777a00464fcfa04cba01410c9aca697, type: 3}
       propertyPath: m_LocalRotation.x
@@ -853,15 +899,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a777a00464fcfa04cba01410c9aca697, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a777a00464fcfa04cba01410c9aca697, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a777a00464fcfa04cba01410c9aca697, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a777a00464fcfa04cba01410c9aca697, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -909,7 +955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   esCestaFrutas: 1
-  spawner: {fileID: 0}
+  spawner: {fileID: 1032794655}
 --- !u!65 &594105095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -931,37 +977,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.015274367, y: 0.019375164, z: 0.008444916}
   m_Center: {x: 0, y: 0.0000000013969836, z: 0.0042224573}
---- !u!1 &915465524
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 915465525}
-  m_Layer: 0
-  m_Name: GameObject (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &915465525
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915465524}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &923733671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,9 +1053,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a094612382b5b5745a1b15ff09147a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frutas: []
-  spawnPoint: {fileID: 0}
-  gameManager: {fileID: 0}
+  frutas:
+  - nombre: Manzana
+    prefab: {fileID: 6003606252381026014, guid: 6e56f918dc6bdbb4886cd2c0946570c2, type: 3}
+    esFruta: 1
+  - nombre: Tomate
+    prefab: {fileID: 919132149155446097, guid: ed878b0c196666842bd35953e67ee3f4, type: 3}
+    esFruta: 0
+  - nombre: Cereza
+    prefab: {fileID: -9144834052774678212, guid: 3fa97efe7419d0243912784d3dcaf1ed, type: 3}
+    esFruta: 1
+  - nombre: Zanahoria
+    prefab: {fileID: -5057247011643448900, guid: cf1ce823bfecd324a81b7fd8cff1fff9, type: 3}
+    esFruta: 0
+  - nombre: Pimiento
+    prefab: {fileID: 2063618967926439999, guid: 2540ffa40c73e984eb213275443e0d3e, type: 3}
+    esFruta: 0
+  - nombre: "Sand\xEDa"
+    prefab: {fileID: 7869004273184487073, guid: 6d8f97db8cb576a43959d9b637802791, type: 3}
+    esFruta: 1
+  spawnPoint: {fileID: 923733672}
+  gameManager: {fileID: 1389252951}
 --- !u!1 &1054507165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,7 +1329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1389252949}
-  - component: {fileID: 1389252950}
+  - component: {fileID: 1389252951}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1319,7 +1352,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1389252950
+--- !u!114 &1389252951
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1328,54 +1361,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1389252948}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e0f377a830f5104f9866ee99a9d64d5, type: 3}
+  m_Script: {fileID: 11500000, guid: b76deb5dab47ea544b2a9745358837ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frutas:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  spawnPoint: {fileID: 923733672}
-  basket: {fileID: 0}
-  puntuacion: 0
---- !u!1 &1687626447
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1687626448}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1687626448
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687626447}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  panelSearching: {fileID: 195545706}
+  panelHUD: {fileID: 2053773555}
+  panelGameOver: {fileID: 1054507165}
+  scoreText: {fileID: 2058275133}
+  failsText: {fileID: 1851509013}
+  fruitNameText: {fileID: 1860097477}
+  gameOverText: {fileID: 1150886623}
+  score: 0
+  fails: 0
+  maxFails: 3
+  targetScore: 10
+  state: 0
 --- !u!1 &1755381305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,7 +1949,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1998986690}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1389252951}
+        m_TargetAssemblyTypeName: GameManagerAR, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1998986690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2636,10 +2648,9 @@ SceneRoots:
   - {fileID: 109473995}
   - {fileID: 1755381308}
   - {fileID: 1389252949}
-  - {fileID: 1687626448}
   - {fileID: 1356506679}
   - {fileID: 923733672}
   - {fileID: 540477811}
   - {fileID: 182095511}
-  - {fileID: 915465525}
+  - {fileID: 495266091}
   - {fileID: 1032794654}

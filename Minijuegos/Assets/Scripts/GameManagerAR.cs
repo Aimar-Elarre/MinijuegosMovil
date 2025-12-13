@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public enum GameState
 {
@@ -15,10 +16,10 @@ public class GameManagerAR : MonoBehaviour
     public GameObject panelHUD;
     public GameObject panelGameOver;
 
-    public Text scoreText;
-    public Text failsText;
-    public Text fruitNameText;
-    public Text gameOverText;
+    public TMP_Text scoreText;
+    public TMP_Text failsText;
+    public TMP_Text fruitNameText;
+    public TMP_Text gameOverText;
 
     [Header("Puntuación")]
     public int score = 0;
@@ -47,7 +48,7 @@ public class GameManagerAR : MonoBehaviour
     public void OnMarkerLost()
     {
         markerVisible = false;
-        // Lo usamos para pausar HUD si quieres:
+        
         if (state == GameState.Playing)
         {
             panelHUD.SetActive(false);
