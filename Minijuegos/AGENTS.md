@@ -3,11 +3,7 @@
 - Unity version: Unity 6000.0.59f2
 - Active scene:
   - Tags:
-    - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController, Roca, Gasolina
+    - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController
   - Layers:
     - Default, TransparentFX, Ignore Raycast, Water, UI
-- Active game object:
-  - Name: Cesta Variant1
-  - Tag: Untagged
-  - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

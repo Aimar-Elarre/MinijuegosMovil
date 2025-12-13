@@ -5,10 +5,6 @@ public class Basket : MonoBehaviour
     public bool esCestaFrutas = true; // si false = cesta verduras
     public FruitSpawner spawner;
 
-    public GameObject fruit1;
-    public GameObject fruit2;
-
-    public bool cesta1;
 
     private void OnTriggerEnter(Collider other)
     {
