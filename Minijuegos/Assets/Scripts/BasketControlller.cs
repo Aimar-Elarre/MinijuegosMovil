@@ -2,62 +2,36 @@ using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
-public class BasketController : MonoBehaviour
+[RequireComponent(typeof(ARTrackedImage))]
+public class BasketTrackedImage : MonoBehaviour
 {
-    public ARTrackedImageManager gestor;
-    public GameObject cesta1;
-    public GameObject cesta2;
+    public GameObject cestaMoneda;
+    public GameObject cestaMonstruo;
+
+    private ARTrackedImage trackedImage;
+
+    void Awake()
+    {
+        trackedImage = GetComponent<ARTrackedImage>();
+    }
 
     void OnEnable()
     {
-        gestor.trackedImagesChanged += OnTrackedImagesChanged;
+        ActualizarContenido();
     }
 
-    void OnDisable()
+    void Update()
     {
-        gestor.trackedImagesChanged -= OnTrackedImagesChanged;
+        bool tracking = trackedImage.trackingState == TrackingState.Tracking;
+
+        if (cestaMoneda != null) cestaMoneda.SetActive(tracking && trackedImage.referenceImage.name == "imagen_moneda");
+        if (cestaMonstruo != null) cestaMonstruo.SetActive(tracking && trackedImage.referenceImage.name == "imagen_monstruo");
     }
 
-    void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
+    void ActualizarContenido()
     {
-        foreach (ARTrackedImage trackedImage in eventArgs.added)
-        {
-            CrearCesta(trackedImage);
-        }
-
-        foreach (ARTrackedImage trackedImage in eventArgs.updated)
-        {
-            if (trackedImage.transform.childCount > 0)
-            {
-                trackedImage.transform.GetChild(0).gameObject.SetActive(
-                    trackedImage.trackingState == TrackingState.Tracking
-                );
-            }
-        }
-    }
-
-    void CrearCesta(ARTrackedImage trackedImage)
-    {
-        GameObject prefab = null;
-
-        switch (trackedImage.referenceImage.name)
-        {
-            case "imagen_moneda":
-                prefab = cesta1;
-                break;
-
-            case "imagen_monstruo":
-                prefab = cesta2;
-                break;
-        }
-
-        if (prefab == null) return;
-
-        Instantiate(
-            prefab,
-            trackedImage.transform.position,
-            trackedImage.transform.rotation,
-            trackedImage.transform
-        );
+        if (cestaMoneda != null) cestaMoneda.SetActive(false);
+        if (cestaMonstruo != null) cestaMonstruo.SetActive(false);
     }
 }
+
