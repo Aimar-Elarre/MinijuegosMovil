@@ -1,11 +1,11 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 [System.Serializable]
 public class FruitData
 {
     public string nombre;
     public GameObject prefab;
-    public bool esFruta; 
+    public bool esFruta; // true = fruta, false = verdura
 }
 
 public class FruitSpawner : MonoBehaviour
@@ -32,7 +32,6 @@ public class FruitSpawner : MonoBehaviour
 
         frutaActual = Instantiate(frutaActualData.prefab, spawnPoint.position, Quaternion.identity, transform);
 
-        // Añadimos el script de lanzar
         var throwable = frutaActual.GetComponent<ThrowableObject>();
         if (throwable == null)
             throwable = frutaActual.AddComponent<ThrowableObject>();
@@ -43,12 +42,18 @@ public class FruitSpawner : MonoBehaviour
             gameManager.SetFruitName(frutaActualData.nombre);
     }
 
-    public void NotificarAcierto()
+    
+    public void NotificarAcierto(int puntos)
     {
         if (gameManager != null)
-            gameManager.AddScore(1);
+            gameManager.AddScore(puntos);
 
         SpawnNuevaFruta();
+    }
+
+    public void NotificarAcierto()
+    {
+        NotificarAcierto(1);
     }
 
     public void NotificarFallo()
