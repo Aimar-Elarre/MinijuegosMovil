@@ -428,8 +428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 472c1b107387dfc49a9c701789d3acad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cestaMoneda: {fileID: 0}
-  cestaMonstruo: {fileID: 0}
+  cestaMoneda: {fileID: 2688450682120093529, guid: 46ae267953380ba43a207ef0251c7605, type: 3}
+  cestaMonstruo: {fileID: 2781179663721463563, guid: 1a9bae3b275f1c44c8a80c2885aa033f, type: 3}
 --- !u!114 &182095514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 451172200}
   - component: {fileID: 451172199}
   - component: {fileID: 451172198}
-  - component: {fileID: 451172197}
+  - component: {fileID: 451172202}
   - component: {fileID: 451172196}
   - component: {fileID: 451172201}
   m_Layer: 0
@@ -657,20 +657,6 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
---- !u!114 &451172197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451172194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 816b289ef451e094f9ae174fb4cf8db0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UseCustomMaterial: 0
-  m_CustomMaterial: {fileID: 0}
 --- !u!114 &451172198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -708,7 +694,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BackGroundColor: {r: 0.1509434, g: 0.1473834, b: 0.1473834, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -793,6 +779,20 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &451172202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451172194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816b289ef451e094f9ae174fb4cf8db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UseCustomMaterial: 0
+  m_CustomMaterial: {fileID: 0}
 --- !u!1 &495266090
 GameObject:
   m_ObjectHideFlags: 0
