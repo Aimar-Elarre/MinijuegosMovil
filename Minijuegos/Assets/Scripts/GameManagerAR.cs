@@ -52,7 +52,7 @@ public class GameManagerAR : MonoBehaviour
         if (state == GameState.Playing)
         {
             panelHUD.SetActive(false);
-            panelSearching.SetActive(true);
+            //panelSearching.SetActive(true);
         }
     }
 
@@ -98,19 +98,19 @@ public class GameManagerAR : MonoBehaviour
         switch (state)
         {
             case GameState.SearchingMarker:
-                panelSearching.SetActive(true);
+                //panelSearching.SetActive(true);
                 panelHUD.SetActive(false);
                 panelGameOver.SetActive(false);
                 break;
 
             case GameState.Playing:
-                panelSearching.SetActive(false);
+                //panelSearching.SetActive(false);
                 panelHUD.SetActive(true);
                 panelGameOver.SetActive(false);
                 break;
 
             case GameState.GameOver:
-                panelSearching.SetActive(false);
+                //panelSearching.SetActive(false);
                 panelHUD.SetActive(false);
                 panelGameOver.SetActive(true);
                 break;
