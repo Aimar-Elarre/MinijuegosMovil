@@ -356,9 +356,9 @@ GameObject:
   - component: {fileID: 182095511}
   - component: {fileID: 182095510}
   - component: {fileID: 182095512}
-  - component: {fileID: 182095513}
   - component: {fileID: 182095514}
   - component: {fileID: 182095515}
+  - component: {fileID: 182095516}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -415,22 +415,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SerializedLibrary: {fileID: 11400000, guid: 63c5b63e28caa014581743c563c27de8, type: 2}
-  m_MaxNumberOfMovingImages: 2
+  m_MaxNumberOfMovingImages: 4
   m_TrackedImagePrefab: {fileID: 0}
---- !u!114 &182095513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182095509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 472c1b107387dfc49a9c701789d3acad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cestaMoneda: {fileID: 2688450682120093529, guid: 46ae267953380ba43a207ef0251c7605, type: 3}
-  cestaMonstruo: {fileID: 2781179663721463563, guid: 1a9bae3b275f1c44c8a80c2885aa033f, type: 3}
 --- !u!114 &182095514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,6 +447,22 @@ MonoBehaviour:
   m_EnvironmentDepthMode: 1
   m_EnvironmentDepthTemporalSmoothing: 1
   m_OcclusionPreferenceMode: 0
+--- !u!114 &182095516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182095509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fbd481807c0a1e4089b993753dd4b60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cestaMoneda: {fileID: 2688450682120093529, guid: 46ae267953380ba43a207ef0251c7605, type: 3}
+  cestaMonstruo: {fileID: 2781179663721463563, guid: 1a9bae3b275f1c44c8a80c2885aa033f, type: 3}
+  trackedImageManager: {fileID: 182095512}
+  gameManager: {fileID: 1389252951}
 --- !u!1 &195545706
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,7 +736,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 20
+  far clip plane: 200
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -850,11 +852,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495266090}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fbd481807c0a1e4089b993753dd4b60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cestaMoneda: {fileID: 0}
+  cestaMonstruo: {fileID: 0}
   trackedImageManager: {fileID: 182095512}
   gameManager: {fileID: 1389252951}
 --- !u!1 &540477808
