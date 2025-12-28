@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "114681514612",
+    "project_id": "minijuegosmovilaimmar",
+    "storage_bucket": "minijuegosmovilaimmar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114681514612:android:e61914efec4f8368851f21",
+        "android_client_info": {
+          "package_name": "com.euneiz.Minijuegos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114681514612-hpbn5veoa572cc0av8fsa55opr1kuaop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.euneiz.Minijuegos",
+            "certificate_hash": "345c64de980672b3ca2a2316ee8bedbdcc16c955"
+          }
+        },
+        {
+          "client_id": "114681514612-0p9v1o2ie5ih5s3euv5e0au4pmcer4km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIKi1BEw9I1GBuJXyQvIyxRkXam_PTWG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114681514612-0p9v1o2ie5ih5s3euv5e0au4pmcer4km.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

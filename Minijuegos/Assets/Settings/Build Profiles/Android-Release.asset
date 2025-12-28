@@ -26,7 +26,11 @@ MonoBehaviour:
     - line: '| PlayerSettings:'
     - line: '|   m_ObjectHideFlags: 0'
     - line: '|   serializedVersion: 28'
+<<<<<<< Updated upstream
     - line: '|   productGUID: cbf2d9b65d7be3d45ba3af112c03f89a'
+=======
+    - line: '|   productGUID: 3c6d314f97e2c2642aa1d1360a83262a'
+>>>>>>> Stashed changes
     - line: '|   AndroidProfiler: 0'
     - line: '|   AndroidFilterTouchesWhenObscured: 0'
     - line: '|   AndroidEnableSustainedPerformanceMode: 0'
@@ -34,11 +38,19 @@ MonoBehaviour:
     - line: '|   targetDevice: 2'
     - line: '|   useOnDemandResources: 0'
     - line: '|   accelerometerFrequency: 60'
+<<<<<<< Updated upstream
     - line: '|   companyName: DefaultCompany'
     - line: '|   productName: Minijuegos'
     - line: '|   defaultCursor: {instanceID: 0}'
     - line: '|   cursorHotspot: {x: 0, y: 0}'
     - line: '|   m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b:
+=======
+    - line: '|   companyName: Aimar&Markel'
+    - line: '|   productName: Minijuegos'
+    - line: '|   defaultCursor: {instanceID: 0}'
+    - line: '|   cursorHotspot: {x: 0, y: 0}'
+    - line: '|   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b:
+>>>>>>> Stashed changes
         0.1254902, a: 1}'
     - line: '|   m_ShowUnitySplashScreen: 1'
     - line: '|   m_ShowUnitySplashLogo: 1'
@@ -65,12 +77,21 @@ MonoBehaviour:
     - line: '|   m_SplashScreenLogos: []'
     - line: '|   m_VirtualRealitySplashScreen: {instanceID: 0}'
     - line: '|   m_HolographicTrackingLossScreen: {instanceID: 0}'
+<<<<<<< Updated upstream
     - line: '|   defaultScreenWidth: 1920'
     - line: '|   defaultScreenHeight: 1080'
     - line: '|   defaultScreenWidthWeb: 960'
     - line: '|   defaultScreenHeightWeb: 600'
     - line: '|   m_StereoRenderingPath: 0'
     - line: '|   m_ActiveColorSpace: 0'
+=======
+    - line: '|   defaultScreenWidth: 1024'
+    - line: '|   defaultScreenHeight: 768'
+    - line: '|   defaultScreenWidthWeb: 960'
+    - line: '|   defaultScreenHeightWeb: 600'
+    - line: '|   m_StereoRenderingPath: 0'
+    - line: '|   m_ActiveColorSpace: 1'
+>>>>>>> Stashed changes
     - line: '|   unsupportedMSAAFallback: 0'
     - line: '|   m_SpriteBatchMaxVertexCount: 65535'
     - line: '|   m_SpriteBatchVertexThreshold: 300'
@@ -92,7 +113,11 @@ MonoBehaviour:
     - line: '|   disableDepthAndStencilBuffers: 0'
     - line: '|   androidStartInFullscreen: 1'
     - line: '|   androidRenderOutsideSafeArea: 1'
+<<<<<<< Updated upstream
     - line: '|   androidUseSwappy: 1'
+=======
+    - line: '|   androidUseSwappy: 0'
+>>>>>>> Stashed changes
     - line: '|   androidBlitType: 0'
     - line: '|   androidResizeableActivity: 1'
     - line: '|   androidDefaultWindowWidth: 1920'
@@ -105,7 +130,11 @@ MonoBehaviour:
     - line: '|   androidApplicationEntry: 2'
     - line: '|   defaultIsNativeResolution: 1'
     - line: '|   macRetinaSupport: 1'
+<<<<<<< Updated upstream
     - line: '|   runInBackground: 0'
+=======
+    - line: '|   runInBackground: 1'
+>>>>>>> Stashed changes
     - line: '|   muteOtherAudioSources: 0'
     - line: '|   Prepare IOS For Recording: 0'
     - line: '|   Force IOS Speakers When Recording: 0'
@@ -121,8 +150,13 @@ MonoBehaviour:
     - line: '|   resizableWindow: 0'
     - line: '|   useMacAppStoreValidation: 0'
     - line: '|   macAppStoreCategory: public.app-category.games'
+<<<<<<< Updated upstream
     - line: '|   gpuSkinning: 0'
     - line: '|   meshDeformation: 0'
+=======
+    - line: '|   gpuSkinning: 1'
+    - line: '|   meshDeformation: 2'
+>>>>>>> Stashed changes
     - line: '|   xboxPIXTextureCapture: 0'
     - line: '|   xboxEnableAvatar: 0'
     - line: '|   xboxEnableKinect: 0'
@@ -158,12 +192,17 @@ MonoBehaviour:
     - line: '|   switchNVNGraphicsFirmwareMemory: 32'
     - line: '|   vulkanNumSwapchainBuffers: 3'
     - line: '|   vulkanEnableSetSRGBWrite: 0'
+<<<<<<< Updated upstream
     - line: '|   vulkanEnablePreTransform: 0'
+=======
+    - line: '|   vulkanEnablePreTransform: 1'
+>>>>>>> Stashed changes
     - line: '|   vulkanEnableLateAcquireNextImage: 0'
     - line: '|   vulkanEnableCommandBufferRecycling: 1'
     - line: '|   loadStoreDebugModeEnabled: 0'
     - line: '|   visionOSBundleVersion: 1.0'
     - line: '|   tvOSBundleVersion: 1.0'
+<<<<<<< Updated upstream
     - line: '|   bundleVersion: 1.0'
     - line: '|   preloadedAssets:'
     - line: '|   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b,
@@ -174,6 +213,12 @@ MonoBehaviour:
         type: 2}'
     - line: '|   - {fileID: 7192181133837307401, guid: 89173eb03d89e064e9b77de27d005d56,
         type: 2}'
+=======
+    - line: '|   bundleVersion: 0.0.1'
+    - line: '|   preloadedAssets:'
+    - line: '|   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b,
+        type: 3}'
+>>>>>>> Stashed changes
     - line: '|   metroInputSource: 0'
     - line: '|   wsaTransparentSwapchain: 0'
     - line: '|   m_HolographicPauseOnTrackingLoss: 1'
@@ -195,6 +240,7 @@ MonoBehaviour:
     - line: '|   androidMaxAspectRatio: 2.4'
     - line: '|   androidMinAspectRatio: 1'
     - line: '|   applicationIdentifier:'
+<<<<<<< Updated upstream
     - line: '|     Android: com.DefaultCompany.Minijuegos'
     - line: '|   buildNumber:'
     - line: '|     Standalone: 0'
@@ -204,6 +250,19 @@ MonoBehaviour:
     - line: '|   overrideDefaultApplicationIdentifier: 0'
     - line: '|   AndroidBundleVersionCode: 1'
     - line: '|   AndroidMinSdkVersion: 23'
+=======
+    - line: '|     Android: com.euneiz.Minijuegos'
+    - line: '|     Standalone: com.Unity-Technologies.com.unity.template.urp-blank'
+    - line: '|     iPhone: com.minijuegos.com'
+    - line: '|   buildNumber:'
+    - line: '|     Standalone: 0'
+    - line: '|     VisionOS: 0'
+    - line: '|     iPhone: 1'
+    - line: '|     tvOS: 0'
+    - line: '|   overrideDefaultApplicationIdentifier: 1'
+    - line: '|   AndroidBundleVersionCode: 1'
+    - line: '|   AndroidMinSdkVersion: 32'
+>>>>>>> Stashed changes
     - line: '|   AndroidTargetSdkVersion: 0'
     - line: '|   AndroidPreferredInstallLocation: 1'
     - line: '|   aotOptions: '
@@ -278,6 +337,7 @@ MonoBehaviour:
     - line: '|   tvOSManualSigningProvisioningProfileType: 0'
     - line: '|   VisionOSManualSigningProvisioningProfileType: 0'
     - line: '|   appleEnableAutomaticSigning: 0'
+<<<<<<< Updated upstream
     - line: '|   iOSRequireARKit: 0'
     - line: '|   iOSAutomaticallyDetectAndAddCapabilities: 1'
     - line: '|   appleEnableProMotion: 0'
@@ -286,6 +346,16 @@ MonoBehaviour:
     - line: '|   templatePackageId: '
     - line: '|   templateDefaultScene: '
     - line: '|   useCustomMainManifest: 0'
+=======
+    - line: '|   iOSRequireARKit: 1'
+    - line: '|   iOSAutomaticallyDetectAndAddCapabilities: 1'
+    - line: '|   appleEnableProMotion: 0'
+    - line: '|   shaderPrecisionModel: 0'
+    - line: '|   clonedFromGUID: 3c72c65a16f0acb438eed22b8b16c24a'
+    - line: '|   templatePackageId: com.unity.template.urp-blank@17.0.11'
+    - line: '|   templateDefaultScene: Assets/Scenes/SampleScene.unity'
+    - line: '|   useCustomMainManifest: 1'
+>>>>>>> Stashed changes
     - line: '|   useCustomLauncherManifest: 0'
     - line: '|   useCustomMainGradleTemplate: 0'
     - line: '|   useCustomLauncherGradleManifest: 0'
@@ -318,14 +388,30 @@ MonoBehaviour:
     - line: '|   AndroidMinifyRelease: 0'
     - line: '|   AndroidMinifyDebug: 0'
     - line: '|   AndroidValidateAppBundleSize: 1'
+<<<<<<< Updated upstream
     - line: '|   AndroidAppBundleSizeToValidate: 200'
     - line: '|   AndroidReportGooglePlayAppDependencies: 1'
     - line: '|   androidSymbolsSizeThreshold: 800'
     - line: '|   m_BuildTargetIcons: []'
+=======
+    - line: '|   AndroidAppBundleSizeToValidate: 150'
+    - line: '|   AndroidReportGooglePlayAppDependencies: 1'
+    - line: '|   androidSymbolsSizeThreshold: 800'
+    - line: '|   m_BuildTargetIcons:'
+    - line: '|   - m_BuildTarget: '
+    - line: '|     m_Icons:'
+    - line: '|     - serializedVersion: 2'
+    - line: '|       m_Icon: {fileID: 2800000, guid: f5572cc066d98fe4791c22c5b4c8ca2f,
+        type: 3}'
+    - line: '|       m_Width: 128'
+    - line: '|       m_Height: 128'
+    - line: '|       m_Kind: 0'
+>>>>>>> Stashed changes
     - line: '|   m_BuildTargetPlatformIcons:'
     - line: '|   - m_BuildTarget: iPhone'
     - line: '|     m_Icons:'
     - line: '|     - m_Textures: []'
+<<<<<<< Updated upstream
     - line: '|       m_Width: 180'
     - line: '|       m_Height: 180'
     - line: '|       m_Kind: 0'
@@ -351,6 +437,8 @@ MonoBehaviour:
     - line: '|       m_Kind: 0'
     - line: '|       m_SubKind: iPad'
     - line: '|     - m_Textures: []'
+=======
+>>>>>>> Stashed changes
     - line: '|       m_Width: 120'
     - line: '|       m_Height: 120'
     - line: '|       m_Kind: 3'
@@ -396,6 +484,7 @@ MonoBehaviour:
     - line: '|       m_Kind: 1'
     - line: '|       m_SubKind: iPad'
     - line: '|     - m_Textures: []'
+<<<<<<< Updated upstream
     - line: '|       m_Width: 60'
     - line: '|       m_Height: 60'
     - line: '|       m_Kind: 2'
@@ -416,10 +505,70 @@ MonoBehaviour:
     - line: '|       m_Kind: 2'
     - line: '|       m_SubKind: iPad'
     - line: '|     - m_Textures: []'
+=======
+>>>>>>> Stashed changes
     - line: '|       m_Width: 1024'
     - line: '|       m_Height: 1024'
     - line: '|       m_Kind: 4'
     - line: '|       m_SubKind: App Store'
+<<<<<<< Updated upstream
+=======
+    - line: '|     - m_Textures:'
+    - line: '|       - {fileID: 2800000, guid: f5572cc066d98fe4791c22c5b4c8ca2f,
+        type: 3}'
+    - line: '|       m_Width: 60'
+    - line: '|       m_Height: 60'
+    - line: '|       m_Kind: 2'
+    - line: '|       m_SubKind: iPhone'
+    - line: '|     - m_Textures:'
+    - line: '|       - {fileID: 2800000, guid: f5572cc066d98fe4791c22c5b4c8ca2f,
+        type: 3}'
+    - line: '|       m_Width: 40'
+    - line: '|       m_Height: 40'
+    - line: '|       m_Kind: 2'
+    - line: '|       m_SubKind: iPhone'
+    - line: '|     - m_Textures:'
+    - line: '|       - {instanceID: 0}'
+    - line: '|       m_Width: 40'
+    - line: '|       m_Height: 40'
+    - line: '|       m_Kind: 2'
+    - line: '|       m_SubKind: iPad'
+    - line: '|     - m_Textures:'
+    - line: '|       - {instanceID: 0}'
+    - line: '|       m_Width: 20'
+    - line: '|       m_Height: 20'
+    - line: '|       m_Kind: 2'
+    - line: '|       m_SubKind: iPad'
+    - line: '|     - m_Textures:'
+    - line: '|       - {fileID: 2800000, guid: f5572cc066d98fe4791c22c5b4c8ca2f,
+        type: 3}'
+    - line: '|       m_Width: 180'
+    - line: '|       m_Height: 180'
+    - line: '|       m_Kind: 0'
+    - line: '|       m_SubKind: iPhone'
+    - line: '|     - m_Textures:'
+    - line: '|       - {fileID: 2800000, guid: f5572cc066d98fe4791c22c5b4c8ca2f,
+        type: 3}'
+    - line: '|       m_Width: 120'
+    - line: '|       m_Height: 120'
+    - line: '|       m_Kind: 0'
+    - line: '|       m_SubKind: iPhone'
+    - line: '|     - m_Textures: []'
+    - line: '|       m_Width: 167'
+    - line: '|       m_Height: 167'
+    - line: '|       m_Kind: 0'
+    - line: '|       m_SubKind: iPad'
+    - line: '|     - m_Textures: []'
+    - line: '|       m_Width: 152'
+    - line: '|       m_Height: 152'
+    - line: '|       m_Kind: 0'
+    - line: '|       m_SubKind: iPad'
+    - line: '|     - m_Textures: []'
+    - line: '|       m_Width: 76'
+    - line: '|       m_Height: 76'
+    - line: '|       m_Kind: 0'
+    - line: '|       m_SubKind: iPad'
+>>>>>>> Stashed changes
     - line: '|   - m_BuildTarget: Android'
     - line: '|     m_Icons:'
     - line: '|     - m_Textures: []'
@@ -512,11 +661,61 @@ MonoBehaviour:
     - line: '|       m_Height: 36'
     - line: '|       m_Kind: 0'
     - line: '|       m_SubKind: '
+<<<<<<< Updated upstream
+=======
+    - line: '|   - m_BuildTarget: tvOS'
+    - line: '|     m_Icons:'
+    - line: '|     - m_Textures: []'
+    - line: '|       m_Width: 1280'
+    - line: '|       m_Height: 768'
+    - line: '|       m_Kind: 0'
+    - line: '|       m_SubKind: '
+    - line: '|     - m_Textures: []'
+    - line: '|       m_Width: 800'
+    - line: '|       m_Height: 480'
+    - line: '|       m_Kind: 0'
+    - line: '|       m_SubKind: '
+    - line: '|     - m_Textures: []'
+    - line: '|       m_Width: 400'
+    - line: '|       m_Height: 240'
+    - line: '|       m_Kind: 0'
+    - line: '|       m_SubKind: '
+    - line: '|     - m_Textures: []'
+    - line: '|       m_Width: 4640'
+    - line: '|       m_Height: 1440'
+    - line: '|       m_Kind: 1'
+    - line: '|       m_SubKind: '
+    - line: '|     - m_Textures: []'
+    - line: '|       m_Width: 2320'
+    - line: '|       m_Height: 720'
+    - line: '|       m_Kind: 1'
+    - line: '|       m_SubKind: '
+    - line: '|     - m_Textures: []'
+    - line: '|       m_Width: 3840'
+    - line: '|       m_Height: 1440'
+    - line: '|       m_Kind: 1'
+    - line: '|       m_SubKind: '
+    - line: '|     - m_Textures: []'
+    - line: '|       m_Width: 1920'
+    - line: '|       m_Height: 720'
+    - line: '|       m_Kind: 1'
+    - line: '|       m_SubKind: '
+>>>>>>> Stashed changes
     - line: '|   m_BuildTargetBatching: []'
     - line: '|   m_BuildTargetShaderSettings: []'
     - line: '|   m_BuildTargetGraphicsJobs: []'
     - line: '|   m_BuildTargetGraphicsJobMode: []'
+<<<<<<< Updated upstream
     - line: '|   m_BuildTargetGraphicsAPIs: []'
+=======
+    - line: '|   m_BuildTargetGraphicsAPIs:'
+    - line: '|   - m_BuildTarget: iOSSupport'
+    - line: '|     m_APIs: 10000000'
+    - line: '|     m_Automatic: 1'
+    - line: '|   - m_BuildTarget: AndroidPlayer'
+    - line: '|     m_APIs: 0b00000015000000'
+    - line: '|     m_Automatic: 0'
+>>>>>>> Stashed changes
     - line: '|   m_BuildTargetVRSettings: []'
     - line: '|   m_DefaultShaderChunkSizeInMB: 16'
     - line: '|   m_DefaultShaderChunkCount: 0'
@@ -526,6 +725,7 @@ MonoBehaviour:
     - line: '|   m_TemplateCustomTags: {}'
     - line: '|   mobileMTRendering:'
     - line: '|     Android: 1'
+<<<<<<< Updated upstream
     - line: '|     VisionOS: 1'
     - line: '|     iPhone: 1'
     - line: '|     tvOS: 1'
@@ -538,6 +738,27 @@ MonoBehaviour:
     - line: '|   - serializedVersion: 3'
     - line: '|     m_BuildTarget: Android'
     - line: '|     m_Formats: 01000000'
+=======
+    - line: '|     iPhone: 1'
+    - line: '|     tvOS: 1'
+    - line: '|   m_BuildTargetGroupLightmapEncodingQuality:'
+    - line: '|   - serializedVersion: 2'
+    - line: '|     m_BuildTarget: Android'
+    - line: '|     m_EncodingQuality: 1'
+    - line: '|   m_BuildTargetGroupHDRCubemapEncodingQuality: []'
+    - line: '|   m_BuildTargetGroupLightmapSettings: []'
+    - line: '|   m_BuildTargetGroupLoadStoreDebugModeSettings: []'
+    - line: '|   m_BuildTargetNormalMapEncoding:'
+    - line: '|   - m_BuildTarget: Android'
+    - line: '|     m_Encoding: 1'
+    - line: '|   m_BuildTargetDefaultTextureCompressionFormat:'
+    - line: '|   - serializedVersion: 3'
+    - line: '|     m_BuildTarget: Android'
+    - line: '|     m_Formats: 03000000'
+    - line: '|   - serializedVersion: 3'
+    - line: '|     m_BuildTarget: iOS'
+    - line: '|     m_Formats: 03000000'
+>>>>>>> Stashed changes
     - line: '|   playModeTestRunnerEnabled: 0'
     - line: '|   runPlayModeTestAsEditModeTest: 0'
     - line: '|   actionOnDotNetUnhandledException: 1'
@@ -545,7 +766,11 @@ MonoBehaviour:
     - line: '|   enableInternalProfiler: 0'
     - line: '|   logObjCUncaughtExceptions: 1'
     - line: '|   enableCrashReportAPI: 0'
+<<<<<<< Updated upstream
     - line: '|   cameraUsageDescription: '
+=======
+    - line: '|   cameraUsageDescription: Required for augmented reality support.'
+>>>>>>> Stashed changes
     - line: '|   locationUsageDescription: '
     - line: '|   microphoneUsageDescription: '
     - line: '|   bluetoothUsageDescription: '
@@ -674,7 +899,11 @@ MonoBehaviour:
     - line: '|   switchSystemResourceMemory: 16777216'
     - line: '|   switchSupportedNpadStyles: 22'
     - line: '|   switchNativeFsCacheSize: 32'
+<<<<<<< Updated upstream
     - line: '|   switchIsHoldTypeHorizontal: 1'
+=======
+    - line: '|   switchIsHoldTypeHorizontal: 0'
+>>>>>>> Stashed changes
     - line: '|   switchSupportedNpadCount: 8'
     - line: '|   switchEnableTouchScreen: 1'
     - line: '|   switchSocketConfigEnabled: 0'
@@ -688,7 +917,11 @@ MonoBehaviour:
     - line: '|   switchSocketInitializeEnabled: 1'
     - line: '|   switchNetworkInterfaceManagerInitializeEnabled: 1'
     - line: '|   switchDisableHTCSPlayerConnection: 0'
+<<<<<<< Updated upstream
     - line: '|   switchUseNewStyleFilepaths: 1'
+=======
+    - line: '|   switchUseNewStyleFilepaths: 0'
+>>>>>>> Stashed changes
     - line: '|   switchUseLegacyFmodPriorities: 0'
     - line: '|   switchUseMicroSleepForYield: 1'
     - line: '|   switchEnableRamDiskSupport: 0'
@@ -786,7 +1019,11 @@ MonoBehaviour:
     - line: '|   webGLTemplate: APPLICATION:Default'
     - line: '|   webGLAnalyzeBuildSize: 0'
     - line: '|   webGLUseEmbeddedResources: 0'
+<<<<<<< Updated upstream
     - line: '|   webGLCompressionFormat: 1'
+=======
+    - line: '|   webGLCompressionFormat: 0'
+>>>>>>> Stashed changes
     - line: '|   webGLWasmArithmeticExceptions: 0'
     - line: '|   webGLLinkerTarget: 1'
     - line: '|   webGLThreadsSupport: 0'
@@ -804,10 +1041,21 @@ MonoBehaviour:
     - line: '|   webGLCloseOnQuit: 0'
     - line: '|   webWasm2023: 0'
     - line: '|   scriptingDefineSymbols:'
+<<<<<<< Updated upstream
     - line: '|     iPhone: UNITY_XR_ARKIT_LOADER_ENABLED'
     - line: '|   additionalCompilerArguments: {}'
     - line: '|   platformArchitecture: {}'
     - line: '|   scriptingBackend: {}'
+=======
+    - line: '|     Android: USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS'
+    - line: '|     Standalone: USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS'
+    - line: '|     Windows Store Apps: USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS'
+    - line: '|     iPhone: UNITY_XR_ARKIT_LOADER_ENABLED'
+    - line: '|   additionalCompilerArguments: {}'
+    - line: '|   platformArchitecture: {}'
+    - line: '|   scriptingBackend:'
+    - line: '|     Android: 1'
+>>>>>>> Stashed changes
     - line: '|   il2cppCompilerConfiguration: {}'
     - line: '|   il2cppCodeGeneration: {}'
     - line: '|   il2cppStacktraceInformation: {}'
@@ -895,7 +1143,11 @@ MonoBehaviour:
     - line: '|     m_VersionCode: 1'
     - line: '|     m_VersionName: '
     - line: '|   hmiPlayerDataPath: '
+<<<<<<< Updated upstream
     - line: '|   hmiForceSRGBBlit: 0'
+=======
+    - line: '|   hmiForceSRGBBlit: 1'
+>>>>>>> Stashed changes
     - line: '|   embeddedLinuxEnableGamepadInput: 0'
     - line: '|   hmiCpuConfiguration: '
     - line: '|   hmiLogStartupTiming: 0'
@@ -904,11 +1156,19 @@ MonoBehaviour:
     - line: '|   captureStartupLogs: {}'
     - line: '|   activeInputHandler: 2'
     - line: '|   windowsGamepadBackendHint: 0'
+<<<<<<< Updated upstream
     - line: '|   cloudProjectId: '
     - line: '|   framebufferDepthMemorylessMode: 0'
     - line: '|   qualitySettingsNames: []'
     - line: '|   projectName: '
     - line: '|   organizationId: '
+=======
+    - line: '|   cloudProjectId: d86b53a9-093f-4650-bad0-175e7e4090d9'
+    - line: '|   framebufferDepthMemorylessMode: 0'
+    - line: '|   qualitySettingsNames: []'
+    - line: '|   projectName: Minijuegos'
+    - line: '|   organizationId: sensoryapo29'
+>>>>>>> Stashed changes
     - line: '|   cloudEnabled: 0'
     - line: '|   legacyClampBlendShapeWeights: 0'
     - line: '|   hmiLoadingImage: {instanceID: 0}'
